@@ -1,31 +1,64 @@
 import requests
-from datetime import datetime
+import datetime
+import os
+import subprocess
 
-# Step 1: Get latest CVEs
-url = "https://cve.circl.lu/api/last"
-response = requests.get(url)
-cves = response.json()
+def fetch_latest_cves():
+    url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+    params = {
+        "resultsPerPage": 5,
+        "pubStartDate": (datetime.datetime.utcnow() - datetime.timedelta(days=1)).isoformat() + "Z"
+    }
 
-# Step 2: Format output
-latest_cves = ""
-for cve in cves[:5]:
-    latest_cves += f"- [{cve['id']}]({cve['references'][0] if cve['references'] else '#'}) — {cve['summary'][:100]}...\n"
+    headers = {
+        "User-Agent": "github-action-cve-fetcher"
+    }
 
-# Step 3: Update README.md
-with open("README.md", "r", encoding="utf-8") as f:
-    content = f.read()
+    response = requests.get(url, params=params, headers=headers)
+    if response.status_code != 200:
+        raise Exception(f"Failed to fetch CVEs: {response.status_code} {response.text}")
 
-start_tag = "<!-- CVE-START -->"
-end_tag = "<!-- CVE-END -->"
+    data = response.json()
+    cves = []
 
-new_section = f"{start_tag}\n### 🔥 Latest CVEs (Updated {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')})\n\n{latest_cves}{end_tag}"
-if start_tag in content and end_tag in content:
-    new_content = content.split(start_tag)[0] + new_section + content.split(end_tag)[1]
-else:
-    new_content = content + "\n\n" + new_section
+    for item in data.get("vulnerabilities", []):
+        cve_id = item["cve"]["id"]
+        description = item["cve"]["descriptions"][0]["value"]
+        cves.append(f"- **{cve_id}**: {description[:180]}...")
 
-# Only update if something changed
-if content != new_content:
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_content)
+    return cves
 
+def update_readme(cves):
+    with open("README.md", "r", encoding="utf-8") as file:
+        content = file.readlines()
+
+    start_marker = "<!-- CVE-START -->"
+    end_marker = "<!-- CVE-END -->"
+
+    try:
+        start_index = content.index(start_marker + "\n") + 1
+        end_index = content.index(end_marker + "\n")
+    except ValueError:
+        print("CVE markers not found in README.md")
+        return
+
+    # Build new CVE section
+    new_cve_section = [f"{line}\n" for line in cves]
+
+    # Update content
+    updated_content = content[:start_index] + new_cve_section + content[end_index:]
+
+    with open("README.md", "w", encoding="utf-8") as file:
+        file.writelines(updated_content)
+
+def commit_and_push():
+    subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
+    subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
+    subprocess.run(["git", "add", "README.md"], check=True)
+    subprocess.run(["git", "commit", "-m", "🛡️ Update README with latest CVEs"], check=True)
+    subprocess.run(["git", "push"], check=True)
+
+if __name__ == "__main__":
+    cve_list = fetch_latest_cves()
+    update_readme(cve_list)
+    commit_and_push()
