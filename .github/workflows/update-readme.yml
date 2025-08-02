@@ -1,33 +1,35 @@
 name: Update README with Latest CVE
 
 on:
-  schedule:
-    - cron: "0 6 * * *"  # every day at 6 AM UTC
   workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repo
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.x
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Install Dependencies
-      run: pip install feedparser
+      - name: Install dependencies
+        run: pip install requests
 
-    - name: Run CVE Updater Script
-      run: python scripts/update_cve.py
+      - name: Run update_cve.py script
+        run: python update_cve.py
 
-    - name: Commit Changes
-      run: |
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
-        git add README.md
-        git commit -m "📌 update: latest CVE headline"
-        git push
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "🔄 Updated README with latest CVE" || echo "No changes to commit"
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
