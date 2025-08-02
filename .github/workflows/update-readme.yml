@@ -4,35 +4,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-cve:
+  update-readme:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
-      - name: Install requests
+      - name: Install dependencies
         run: pip install requests
 
       - name: Run update script
         run: python update_cve.py
 
-      - name: Show git status and diff
+      - name: Push changes
         run: |
-          git status
-          git diff
-
-      - name: Git Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add README.md
-          git diff --cached --quiet && echo "✅ No changes to commit." || git commit -m "🔄 Update README with latest CVEs"
+          git commit -m "🛡️ Update README with latest CVEs" || echo "No changes to commit"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
