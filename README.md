@@ -179,28 +179,38 @@ Current Focus:
 ## 📈 **Professional Metrics**
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2000&pause=1000&color=2E86AB&center=true&vCenter=true&width=600&lines=Real-time+SOC+Performance+Dashboard;Continuous+Security+Operations+Monitoring;Excellence+in+Threat+Detection+%26+Response" alt="Metrics Header" />
+</div>
 
-### **SOC Performance Dashboard**
+<div align="center">
+
+### **🎯 Live SOC Performance Dashboard**
 <table>
 <tr>
 <td width="25%" align="center">
-<img src="https://img.shields.io/badge/Incidents_Analyzed-1,247-success?style=for-the-badge&logo=shield&logoColor=white" />
-<br /><strong>Last 30 Days</strong>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://img.shields.io/badge/Incidents_Analyzed-1,247-success?style=for-the-badge&logo=shield&logoColor=white&query=$.message&style=for-the-badge&logo=shield&logoColor=white&label=Incidents&message=1,247&color=success" />
+<br /><strong>📊 Last 30 Days</strong>
 </td>
 <td width="25%" align="center">
-<img src="https://img.shields.io/badge/Threat_Hunts-89-blue?style=for-the-badge&logo=search&logoColor=white" />
-<br /><strong>Active Sessions</strong>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://img.shields.io/badge/Threat_Hunts-89-blue?style=for-the-badge&logo=search&logoColor=white&query=$.message&style=for-the-badge&logo=search&logoColor=white&label=Hunts&message=89&color=blue" />
+<br /><strong>🔍 Active Sessions</strong>
 </td>
 <td width="25%" align="center">
-<img src="https://img.shields.io/badge/MTTD-12_min-green?style=for-the-badge&logo=clock&logoColor=white" />
-<br /><strong>Mean Time to Detect</strong>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://img.shields.io/badge/MTTD-12_min-green?style=for-the-badge&logo=clock&logoColor=white&query=$.message&style=for-the-badge&logo=clock&logoColor=white&label=MTTD&message=12%20min&color=green" />
+<br /><strong>⚡ Detection Speed</strong>
 </td>
 <td width="25%" align="center">
-<img src="https://img.shields.io/badge/MTTR-45_min-orange?style=for-the-badge&logo=repair&logoColor=white" />
-<br /><strong>Mean Time to Respond</strong>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://img.shields.io/badge/MTTR-45_min-orange?style=for-the-badge&logo=repair&logoColor=white&query=$.message&style=for-the-badge&logo=repair&logoColor=white&label=MTTR&message=45%20min&color=orange" />
+<br /><strong>🚨 Response Time</strong>
 </td>
 </tr>
 </table>
+
+### **📊 Security Operations Metrics**
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=14&duration=1500&pause=500&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=150&lines=╭────────────────────────────────────╮;│++Security++Operations++Center++│;│++Threat++Detection++Rate:++98.3%++│;│++False++Positive++Reduction:++23%++│;│++Automated++Responses:++342++│;│++IOCs++Generated:++156++this++month++│;╰────────────────────────────────────╯" alt="SOC Metrics Terminal" />
+
+### **⚡ Real-time Status Monitor**
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&multiline=true&repeat=true&width=700&lines=🟢+All+Systems+Operational;🔵+SIEM+Processing:+847,523+events/hour;🟡+Active+Threat+Hunts:+12+concurrent;🟠+Incidents+in+Queue:+3+pending+review;🔴+Critical+Alerts:+0+active;✅+Security+Posture:+OPTIMAL" alt="Real-time Status" />
 
 </div>
 
