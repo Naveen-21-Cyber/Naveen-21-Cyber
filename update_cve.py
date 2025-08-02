@@ -7,7 +7,7 @@ def fetch_latest_cves():
     url = "https://services.nvd.nist.gov/rest/json/cves/1.0"
     params = {
         "resultsPerPage": 5,
-        "pubStartDate": (datetime.datetime.utcnow() - datetime.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%S:000 UTC+00:00")
+        "pubStartDate": (datetime.datetime.now(datetime.timezone.utc)- datetime.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%S:000 UTC+00:00")
     }
 
     headers = {
