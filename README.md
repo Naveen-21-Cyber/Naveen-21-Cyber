@@ -45,31 +45,6 @@ Current Focus:
 
 ---
 
-## 📊 **Performance Analytics**
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%">
-<img src="https://github-readme-stats.vercel.app/api?username=naveentelasang&show_icons=true&theme=dark&bg_color=0d1117&title_color=2e86ab&icon_color=2e86ab&text_color=ffffff&border_color=2e86ab&border_radius=12&count_private=true&include_all_commits=true" />
-</td>
-<td width="33%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=naveentelasang&theme=dark&background=0D1117&stroke=2e86ab&ring=2e86ab&fire=ff6b35&currStreakLabel=2e86ab&border=2e86ab&border_radius=12" />
-</td>
-<td width="33%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveentelasang&layout=compact&theme=dark&bg_color=0d1117&title_color=2e86ab&text_color=ffffff&border_color=2e86ab&border_radius=12&langs_count=8" />
-</td>
-</tr>
-</table>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=naveentelasang&theme=github-compact&bg_color=0d1117&color=2e86ab&line=2e86ab&point=ffffff&area_color=2e86ab&area=true&hide_border=false&custom_title=Annual%20Contribution%20Activity&radius=8" width="100%" height="300"/>
-</div>
-
----
 
 ## 🛡️ **Technical Arsenal**
 
@@ -212,16 +187,6 @@ Current Focus:
 </td>
 </tr>
 </table>
-
-### **📊 Animated Performance Visualization**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=naveentelasang&theme=github-compact&bg_color=0d1117&color=2e86ab&line=2e86ab&point=ffffff&area_color=2e86ab&area=true&hide_border=false&custom_title=Security%20Operations%20Activity&radius=8" width="100%" height="250"/>
-
-<p align="center">
-  <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="50" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=14&duration=1500&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=🔐+Security+Operations+Center+Analytics;⚡+Real-time+Threat+Monitoring+Active;🎯+98.3%25+Threat+Detection+Rate;🛡️+Zero+Critical+Incidents+Today" alt="SOC Status" />
-  <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" width="50" />
-</p>
 
 ### **🔄 Live System Status**
 <p align="center">
