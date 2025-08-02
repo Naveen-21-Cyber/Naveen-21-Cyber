@@ -67,3 +67,14 @@ hobbies: Reading breaches, Breaking boundaries
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=footer"/>
 </p>
+
+
+# 👨‍💻 Cyber Sentinel - Naveen Telasang
+
+## 🛡️ Latest CVE
+
+<!-- START_CVE -->
+Fetching latest CVE... 🔄
+<!-- END_CVE -->
+
+## 📡 Stay Safe, Stay Updated
