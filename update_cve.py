@@ -4,10 +4,10 @@ import os
 import subprocess
 
 def fetch_latest_cves():
-    url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
+    url = "https://services.nvd.nist.gov/rest/json/cves/1.0"
     params = {
         "resultsPerPage": 5,
-        "pubStartDate": (datetime.datetime.utcnow() - datetime.timedelta(days=1)).isoformat() + "Z"
+        "pubStartDate": (datetime.datetime.utcnow() - datetime.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%S:000 UTC+00:00")
     }
 
     headers = {
@@ -21,9 +21,9 @@ def fetch_latest_cves():
     data = response.json()
     cves = []
 
-    for item in data.get("vulnerabilities", []):
-        cve_id = item["cve"]["id"]
-        description = item["cve"]["descriptions"][0]["value"]
+    for item in data.get("result", {}).get("CVE_Items", []):
+        cve_id = item["cve"]["CVE_data_meta"]["ID"]
+        description = item["cve"]["description"]["description_data"][0]["value"]
         cves.append(f"- **{cve_id}**: {description[:180]}...")
 
     return cves
