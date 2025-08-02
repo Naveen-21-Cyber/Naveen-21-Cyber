@@ -295,14 +295,6 @@ Current Focus:
 
 ---
 
-## 🏅 **Professional Achievements**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=naveentelasang&theme=nord&no-frame=false&no-bg=false&margin-w=4&row=2&column=4&title=Commits,Repositories,PullRequest,Issues" />
-</div>
-
----
-
 ## 🔐 **Security Philosophy**
 
 <div align="center">
