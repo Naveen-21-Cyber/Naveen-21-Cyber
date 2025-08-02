@@ -1,228 +1,322 @@
-<!-- Cybersecurity GitHub README - Designed for Maximum Impact -->
+<!-- Professional Cybersecurity GitHub README -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=CYBER%20SENTINEL&fontSize=90&fontAlignY=35&desc=Naveen%20Telasang%20-%20Guardian%20of%20Digital%20Realms&descAlignY=55&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,29,64,110&height=280&section=header&text=NAVEEN%20TELASANG&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Professional%20%7C%20SOC%20Analyst%20%7C%20Threat%20Hunter&descAlignY=55&descAlign=50&descSize=20"/>
 </div>
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35">
-  Welcome to My Digital Fortress 
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=32&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Cybersecurity+Researcher;SOC+Analyst+%26+Threat+Hunter;Security+Operations+Specialist;Digital+Forensics+%26+Incident+Response" alt="Professional Title" />
 </h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&width=800&height=100&lines=🔐+Cybersecurity+Researcher+%26+SOC+Analyst;🐍+Python+Automation+Specialist;🕵️+Threat+Hunter+%26+Digital+Forensics;🛡️+SIEM+Engineer+%7C+Log+Whisperer;⚡+Watching+Your+Logs+24%2F7;🚨+Incident+Response+%26+Malware+Analysis;💀+Penetration+Testing+%26+Red+Team;🌐+Securing+the+Digital+Universe" alt="Animated Typing" />
+---
+
+## 🔒 **Professional Profile**
+
+<table>
+<tr>
+<td width="50%">
+
+```yaml
+Name: Naveen Telasang
+Role: SOC Analyst | Cybersecurity Researcher
+Location: India 🇮🇳
+Specialization:
+  - Security Information & Event Management (SIEM)
+  - Threat Hunting & Intelligence Analysis
+  - Incident Response & Digital Forensics
+  - Security Automation & Python Development
+  - Vulnerability Assessment & Management
+Current Focus:
+  - Advanced Persistent Threat (APT) Detection
+  - Machine Learning in Cybersecurity
+  - Cloud Security Architecture
+  - Zero Trust Implementation
+```
+
+</td>
+<td width="50%">
+
+<div align="center">
+  <img src="https://github-profile-3d-contrib.vercel.app/api?username=naveentelasang&theme=dark&background_color=0d1117&border_color=2e86ab&block_color=1f2937&text_color=ffffff&area_color=2e86ab" width="100%" />
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 **Performance Analytics**
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%">
+<img src="https://github-readme-stats.vercel.app/api?username=naveentelasang&show_icons=true&theme=dark&bg_color=0d1117&title_color=2e86ab&icon_color=2e86ab&text_color=ffffff&border_color=2e86ab&border_radius=12&count_private=true&include_all_commits=true" />
+</td>
+<td width="33%">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=naveentelasang&theme=dark&background=0D1117&stroke=2e86ab&ring=2e86ab&fire=ff6b35&currStreakLabel=2e86ab&border=2e86ab&border_radius=12" />
+</td>
+<td width="33%">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveentelasang&layout=compact&theme=dark&bg_color=0d1117&title_color=2e86ab&text_color=ffffff&border_color=2e86ab&border_radius=12&langs_count=8" />
+</td>
+</tr>
+</table>
+
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=naveentelasang&theme=github-compact&bg_color=0d1117&color=2e86ab&line=2e86ab&point=ffffff&area_color=2e86ab&area=true&hide_border=false&custom_title=Annual%20Contribution%20Activity&radius=8" width="100%" height="300"/>
+</div>
+
+---
+
+## 🛡️ **Technical Arsenal**
+
+<div align="center">
+
+### **Security Operations & Monitoring**
+<p>
+<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white&labelColor=black" />
+<img src="https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white" />
+<img src="https://img.shields.io/badge/IBM_QRadar-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Wazuh-3391CC?style=for-the-badge&logo=&logoColor=white" />
 </p>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Hacker GIF" width="600">
-</div>
-
----
-
-## 🧠 **Digital Identity Matrix**
-
-<img align="right" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="300">
-
-```yaml
-🏷️ name: "Naveen Telasang"
-🎭 alias: "Cyber Sentinel"
-📍 location: "India 🇮🇳"
-🎯 role: "SOC Analyst | Threat Hunter | Security Researcher"
-🔧 specialty:
-  - SIEM Engineering & Log Analysis
-  - Python Security Automation
-  - Incident Response & Forensics
-  - Vulnerability Assessment & Penetration Testing
-  - Malware Analysis & Reverse Engineering
-🎮 hobbies:
-  - "Reading breach reports like bedtime stories 📚"
-  - "Breaking systems to make them stronger 💪"
-  - "Collecting zero-days like Pokemon cards 🃏"
-🌙 night_shift: "Your logs are my Netflix 📺"
-```
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=naveentelasang&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/naveentelasang?style=for-the-badge&color=00ff41&labelColor=black" alt="Followers"/>
-</div>
-
----
-
-## 🎯 **Mission Control Dashboard**
-
-<div align="center">
-  
-### 📊 **Battle Stats**
-<img src="https://github-readme-stats.vercel.app/api?username=naveentelasang&show_icons=true&theme=radical&border_radius=20&count_private=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=FFFFFF&border_color=00FF41" height="200" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=naveentelasang&theme=radical&border_radius=20&background=0D1117&stroke=00FF41&ring=00FF41&fire=FF6B35&currStreakLabel=00FF41" height="200"/>
-
-### 💻 **Arsenal Analysis**
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveentelasang&layout=compact&theme=radical&border_radius=20&bg_color=0D1117&title_color=00FF41&text_color=FFFFFF&border_color=00FF41" height="200"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=naveentelasang&theme=redical&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area_color=00FF41&area=true&hide_border=false&custom_title=Contribution%20Graph" height="200"/>
-
-</div>
-
----
-
-## 🛠️ **Cyber Arsenal & Digital Weapons**
-
-<div align="center">
-
-### 🐍 **Programming & Scripting**
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-### 🔍 **Reconnaissance & Analysis**
-<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=&logoColor=white" />
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-<img src="https://img.shields.io/badge/Maltego-FF6B35?style=for-the-badge&logo=&logoColor=white" />
+### **Threat Intelligence & Analysis**
+<p>
+<img src="https://img.shields.io/badge/MITRE_ATT&CK-FF0000?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/YARA-1E90FF?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/STIX/TAXII-4B9CD3?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCTI-FF6B35?style=for-the-badge&logo=&logoColor=white" />
 <img src="https://img.shields.io/badge/OSINT-000000?style=for-the-badge&logo=&logoColor=white" />
+</p>
 
-### 💥 **Penetration Testing**
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
-<img src="https://img.shields.io/badge/Burp_Suite-FCA121?style=for-the-badge&logo=burpsuite&logoColor=black" />
-<img src="https://img.shields.io/badge/Metasploit-0078D4?style=for-the-badge&logo=&logoColor=white" />
-<img src="https://img.shields.io/badge/Cobalt_Strike-FF0000?style=for-the-badge&logo=&logoColor=white" />
+### **Programming & Automation**
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+<img src="https://img.shields.io/badge/REST_API-25D366?style=for-the-badge&logo=&logoColor=white" />
+</p>
 
-### 📊 **SIEM & Monitoring**
-<img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" />
-<img src="https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white" />
-<img src="https://img.shields.io/badge/QRadar-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
-<img src="https://img.shields.io/badge/Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+### **Network Security & Analysis**
+<p>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/Nessus-00C176?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+<img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
+</p>
 
-### 🔬 **Malware Analysis**
-<img src="https://img.shields.io/badge/IDA_Pro-FF6B35?style=for-the-badge&logo=&logoColor=white" />
-<img src="https://img.shields.io/badge/Ghidra-000000?style=for-the-badge&logo=&logoColor=white" />
-<img src="https://img.shields.io/badge/x64dbg-FF0000?style=for-the-badge&logo=&logoColor=white" />
+### **Digital Forensics & Incident Response**
+<p>
 <img src="https://img.shields.io/badge/Volatility-4CAF50?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/Autopsy-1F4E79?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/FTK_Imager-FF6B35?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/TheHive-FF9800?style=for-the-badge&logo=&logoColor=white" />
+<img src="https://img.shields.io/badge/Cortex-607D8B?style=for-the-badge&logo=&logoColor=white" />
+</p>
+
+### **Operating Systems & Platforms**
+<p>
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" />
+<img src="https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" />
+</p>
 
 </div>
 
 ---
 
-## 🎮 **Current Side Quests**
+## 🎯 **Current Initiatives**
 
-<img align="right" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300">
+<table>
+<tr>
+<td width="50%">
 
-- 🔥 **Building AI-powered SOC automation tools**
-- 🕷️ **Developing advanced web application scanners**
-- 🧬 **Researching zero-day vulnerabilities**
-- 🎯 **Creating custom YARA rules for threat hunting**
-- 📱 **Mobile application security assessment**
-- ☁️ **Cloud security architecture & compliance**
+### **🔬 Research & Development**
+- Advanced malware detection using ML/AI
+- Automated threat hunting playbooks
+- Custom SIEM correlation rules
+- Zero-day vulnerability research
+- Cloud security posture management
+
+### **📚 Continuous Learning**
+- SANS GIAC Security Essentials (GSEC)
+- Certified Ethical Hacker (CEH) preparation
+- Cloud security certifications (AWS/Azure)
+- Advanced Python for cybersecurity
+- Threat intelligence analysis techniques
+
+</td>
+<td width="50%">
+
+### **🛠️ Active Projects**
+- SOC automation framework development
+- Custom log parsing and analysis tools
+- Threat intelligence feed aggregator
+- Incident response playbook automation
+- Security awareness training platform
+
+### **🏆 Professional Goals**
+- Lead SOC analyst certification
+- Publish cybersecurity research papers
+- Contribute to open-source security tools
+- Mentor junior security professionals
+- Develop enterprise security solutions
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏆 **Achievement Unlocked**
+## 📈 **Professional Metrics**
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=naveentelasang&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+```mermaid
+gitgraph
+    commit id: "Security Foundation"
+    branch SOC-Analysis
+    checkout SOC-Analysis
+    commit id: "Log Analysis Mastery"
+    commit id: "SIEM Implementation"
+    commit id: "Threat Detection"
+    checkout main
+    merge SOC-Analysis
+    branch Threat-Hunting
+    checkout Threat-Hunting
+    commit id: "IOC Development"
+    commit id: "APT Investigation"
+    commit id: "Behavioral Analytics"
+    checkout main
+    merge Threat-Hunting
+    branch Automation
+    checkout Automation
+    commit id: "Python Scripting"
+    commit id: "API Integration"
+    commit id: "Workflow Automation"
+    checkout main
+    merge Automation
+    commit id: "Senior Analyst Level"
+```
 
 </div>
 
 ---
 
-## 📡 **Communication Channels**
+## 🔗 **Professional Network**
 
 <div align="center">
 
-### 🌐 **Connect with the Sentinel**
-
+<table>
+<tr>
+<td align="center" width="25%">
 <a href="mailto:naveen.secureanalyst@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<br />
+<strong>Professional Email</strong>
 </a>
+</td>
+<td align="center" width="25%">
 <a href="https://linkedin.com/in/naveentelasang">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+<br />
+<strong>Professional Network</strong>
 </a>
+</td>
+<td align="center" width="25%">
 <a href="https://naveencyber.gt.tc/">
-  <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=web&logoColor=white" />
+<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=web&logoColor=white" />
+<br />
+<strong>Professional Portfolio</strong>
 </a>
-<a href="https://twitter.com/naveentelasang">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</td>
+<td align="center" width="25%">
+<a href="#">
+<img src="https://img.shields.io/badge/Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" />
+<br />
+<strong>Research Papers</strong>
 </a>
+</td>
+</tr>
+</table>
 
-### 📊 **Real-time Security Feed**
-
-```bash
-┌─[sentinel@cyberspace]─[~]
-└──╼ $ watch -n 1 'echo "🚨 Monitoring $(date) 🚨"'
-🚨 Monitoring $(date) 🚨
-📊 Active Threat Hunts: 247
-🔍 Log Events Analyzed: 1,847,592
-⚡ Incidents Resolved: 1,337
-🛡️ Systems Protected: ∞
+### **Security Metrics Dashboard**
+```ascii
+╭─────────────────────────────────────────────────────────────╮
+│  📊 SOC Performance Metrics (Last 30 Days)                 │
+├─────────────────────────────────────────────────────────────┤
+│  🚨 Security Incidents Analyzed     │ 1,247               │
+│  🔍 Threat Hunting Sessions         │ 89                  │
+│  📈 False Positive Reduction        │ 23%                 │
+│  ⚡ Mean Time to Detection (MTTD)   │ 12 minutes          │
+│  🛡️ Mean Time to Response (MTTR)    │ 45 minutes          │
+│  📊 Security Tools Optimized        │ 15                  │
+│  🎯 IOCs Generated                   │ 342                 │
+│  💼 Playbooks Automated             │ 28                  │
+╰─────────────────────────────────────────────────────────────╯
 ```
 
 </div>
 
 ---
 
-## 🎭 **Hacker Wisdom & Digital Philosophy**
+## 🏅 **Professional Achievements**
 
-<img align="left" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="200">
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=naveentelasang&theme=nord&no-frame=false&no-bg=false&margin-w=4&row=2&column=4&title=Commits,Repositories,PullRequest,Issues" />
+</div>
 
-<div align="center" style="margin-left: 220px;">
+---
 
-> *"In the digital realm, I am both the hunter and the guardian."*  
-> **— Cyber Sentinel**
+## 🔐 **Security Philosophy**
 
-> *"Your worst nightmare is my daily routine."*  
-> **— Anonymous SOC Analyst**
+<div align="center">
 
-> *"I don't just read logs, I speak their language fluently."*  
-> **— The Log Whisperer**
+> **"Security is not a product, but a process."**  
+> *— Continuous monitoring and improvement mindset*
 
-> *"Sleep is for those who trust their firewalls."*  
-> **— 3AM Security Monitor**
+> **"In cybersecurity, paranoia is a professional virtue."**  
+> *— Proactive threat detection approach*
+
+> **"The best defense is a well-informed offense."**  
+> *— Threat intelligence driven security*
 
 </div>
 
 ---
 
-## 🌟 **Latest Threat Intelligence**
+## 📡 **Latest Security Intelligence**
 
 <div align="center">
 
-### 🚨 **CVE Radar**
-<!-- CVE-START -->
+### **🚨 Threat Landscape Monitoring**
 ```yaml
-🔴 CRITICAL: Monitoring latest CVE feeds...
-📡 Threat Intel: Processing IOCs from 47 sources
-🎯 APT Tracking: 12 groups under surveillance  
-⚡ Zero-days: 3 new discoveries this week
-🛡️ Status: All systems secured and monitored
+Status: Active Monitoring ✅
+Last Updated: Real-time
+Coverage:
+  - CVE Feed Monitoring: 24/7
+  - Threat Intelligence: Multi-source aggregation  
+  - IOC Database: 50,000+ indicators
+  - APT Group Tracking: 35+ groups monitored
+  - Zero-day Watch: Active research participation
 ```
-<!-- CVE-END -->
-
-### 📈 **Security Metrics Dashboard**
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=naveentelasang&repo=security-automation&theme=radical&border_radius=15&bg_color=0D1117&title_color=00FF41&text_color=FFFFFF&border_color=00FF41" />
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=naveentelasang&repo=threat-hunting-toolkit&theme=radical&border_radius=15&bg_color=0D1117&title_color=00FF41&text_color=FFFFFF&border_color=00FF41" />
-
-</div>
-
----
-
-## ⚡ **Digital Signature**
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Bottom Animation"/>
-</div>
-
-<div align="center">
-  
-**"The matrix has you... but I have the matrix."** 🕶️
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=footer&text=Stay%20Secure%20•%20Stay%20Vigilant&fontSize=30&fontAlignY=70&desc=Remember:%20In%20cybersecurity,%20paranoia%20is%20just%20good%20practice&descAlignY=90&descAlign=50"/>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=🔐+Thank+you+for+visiting+my+digital+fortress;🛡️+Remember+to+patch+your+systems;⚡+May+your+logs+be+clean+and+your+alerts+be+few;🌐+Cyber+Sentinel+•+Always+Watching" alt="Footer Typing" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,29,64,110&height=200&section=footer&text=Securing%20Digital%20Infrastructure&fontSize=24&fontColor=ffffff&animation=fadeIn&fontAlignY=65&desc=Professional%20•%20Reliable%20•%20Results-Driven&descAlignY=85&descAlign=50&descSize=16"/>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=2E86AB&center=true&vCenter=true&width=600&lines=Thank+you+for+reviewing+my+professional+profile;Committed+to+cybersecurity+excellence;Always+learning%2C+always+protecting;Connect+for+professional+opportunities" alt="Professional Footer" />
 </div>
