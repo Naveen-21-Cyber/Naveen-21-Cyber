@@ -176,36 +176,35 @@ Current Focus:
 
 ---
 
-## 📈 **Professional Metrics**
+## 📈 **Career Progression**
 
 <div align="center">
 
-```mermaid
-gitgraph
-    commit id: "Security Foundation"
-    branch SOC-Analysis
-    checkout SOC-Analysis
-    commit id: "Log Analysis Mastery"
-    commit id: "SIEM Implementation"
-    commit id: "Threat Detection"
-    checkout main
-    merge SOC-Analysis
-    branch Threat-Hunting
-    checkout Threat-Hunting
-    commit id: "IOC Development"
-    commit id: "APT Investigation"
-    commit id: "Behavioral Analytics"
-    checkout main
-    merge Threat-Hunting
-    branch Automation
-    checkout Automation
-    commit id: "Python Scripting"
-    commit id: "API Integration"
-    commit id: "Workflow Automation"
-    checkout main
-    merge Automation
-    commit id: "Senior Analyst Level"
-```
+<table>
+<tr>
+<td width="33%" align="center">
+<h3>🎯 SOC Operations</h3>
+<p><strong>Security Foundation</strong></p>
+<p>Log Analysis Mastery</p>
+<p>SIEM Implementation</p>
+<p>Threat Detection</p>
+</td>
+<td width="33%" align="center">
+<h3>🕵️ Threat Hunting</h3>
+<p><strong>Advanced Analysis</strong></p>
+<p>IOC Development</p>
+<p>APT Investigation</p>
+<p>Behavioral Analytics</p>
+</td>
+<td width="33%" align="center">
+<h3>🤖 Automation</h3>
+<p><strong>Technical Leadership</strong></p>
+<p>Python Scripting</p>
+<p>API Integration</p>
+<p>Workflow Automation</p>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -288,26 +287,6 @@ gitgraph
 
 > **"The best defense is a well-informed offense."**  
 > *— Threat intelligence driven security*
-
-</div>
-
----
-
-## 📡 **Latest Security Intelligence**
-
-<div align="center">
-
-### **🚨 Threat Landscape Monitoring**
-```yaml
-Status: Active Monitoring ✅
-Last Updated: Real-time
-Coverage:
-  - CVE Feed Monitoring: 24/7
-  - Threat Intelligence: Multi-source aggregation  
-  - IOC Database: 50,000+ indicators
-  - APT Group Tracking: 35+ groups monitored
-  - Zero-day Watch: Active research participation
-```
 
 </div>
 
