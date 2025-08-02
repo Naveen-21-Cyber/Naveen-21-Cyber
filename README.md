@@ -33,22 +33,6 @@ hobbies: Reading breaches, Breaking boundaries
 
 ---
 
-## 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=naveentelasang&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=naveentelasang&theme=darkhub&no-frame=true&no-bg=true&margin-w=5" />
-</p>
-
----
-
 ## 🧰 Tools & Weapons
 
 <p align="center">
