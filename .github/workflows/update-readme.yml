@@ -1,29 +1,37 @@
-name: Update README with Latest CVE
+name: 🔐 Update CVEs Daily
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"  # Runs daily at 2 AM UTC
+  workflow_dispatch:     # Allows manual trigger
 
 jobs:
-  update-readme:
+  update-cves:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Set up Python
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dotenv
 
-      - name: Run update script
+      - name: 🔐 Run CVE update script
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: python update_cve.py
 
-      - name: Push changes
+      - name: 🔄 Commit & push if README changed
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "🛡️ Update README with latest CVEs" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "🔄 Update latest CVEs"
           git push
