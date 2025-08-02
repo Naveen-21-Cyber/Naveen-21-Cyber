@@ -176,6 +176,36 @@ Current Focus:
 
 ---
 
+## 📈 **Professional Metrics**
+
+<div align="center">
+
+### **SOC Performance Dashboard**
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="https://img.shields.io/badge/Incidents_Analyzed-1,247-success?style=for-the-badge&logo=shield&logoColor=white" />
+<br /><strong>Last 30 Days</strong>
+</td>
+<td width="25%" align="center">
+<img src="https://img.shields.io/badge/Threat_Hunts-89-blue?style=for-the-badge&logo=search&logoColor=white" />
+<br /><strong>Active Sessions</strong>
+</td>
+<td width="25%" align="center">
+<img src="https://img.shields.io/badge/MTTD-12_min-green?style=for-the-badge&logo=clock&logoColor=white" />
+<br /><strong>Mean Time to Detect</strong>
+</td>
+<td width="25%" align="center">
+<img src="https://img.shields.io/badge/MTTR-45_min-orange?style=for-the-badge&logo=repair&logoColor=white" />
+<br /><strong>Mean Time to Respond</strong>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ## 📈 **Career Progression**
 
 <div align="center">
