@@ -1,46 +1,31 @@
 import requests
 from datetime import datetime
 
-# Number of CVEs to fetch
-NUM_CVES = 5
+# Step 1: Get latest CVEs
+url = "https://cve.circl.lu/api/last"
+response = requests.get(url)
+cves = response.json()
 
-# CVE API endpoint (you can use CIRCL or another reliable CVE feed)
-API_URL = f"https://cve.circl.lu/api/last/{NUM_CVES}"
+# Step 2: Format output
+latest_cves = ""
+for cve in cves[:5]:
+    latest_cves += f"- [{cve['id']}]({cve['references'][0] if cve['references'] else '#'}) — {cve['summary'][:100]}...\n"
 
-def fetch_latest_cves():
-    try:
-        response = requests.get(API_URL)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"❌ Error fetching CVEs: {e}")
-        return []
+# Step 3: Update README.md
+with open("README.md", "r", encoding="utf-8") as f:
+    content = f.read()
 
-def generate_markdown(cves):
-    if not cves:
-        return "# 🔐 Latest CVEs\n\n*No CVE data available at the moment.*"
+start_tag = "<!-- CVE-START -->"
+end_tag = "<!-- CVE-END -->"
 
-    markdown = "# 🔐 Latest CVEs\n\n"
-    markdown += f"_Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}_\n\n"
+new_section = f"{start_tag}\n### 🔥 Latest CVEs (Updated {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')})\n\n{latest_cves}{end_tag}"
+if start_tag in content and end_tag in content:
+    new_content = content.split(start_tag)[0] + new_section + content.split(end_tag)[1]
+else:
+    new_content = content + "\n\n" + new_section
 
-    for cve in cves:
-        cve_id = cve.get("id", "Unknown CVE")
-        summary = cve.get("summary", "No description provided.")
-        link = f"https://cve.mitre.org/cgi-bin/cvename.cgi?name={cve_id}"
-        markdown += f"### [{cve_id}]({link})\n"
-        markdown += f"{summary}\n\n"
+# Only update if something changed
+if content != new_content:
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
 
-    return markdown
-
-def update_readme(markdown):
-    try:
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(markdown)
-        print("✅ README.md updated successfully.")
-    except Exception as e:
-        print(f"❌ Failed to write to README.md: {e}")
-
-if __name__ == "__main__":
-    latest_cves = fetch_latest_cves()
-    markdown = generate_markdown(latest_cves)
-    update_readme(markdown)
