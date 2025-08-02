@@ -48,7 +48,7 @@ hobbies: Reading breaches, Breaking boundaries
 
 ## 💬 Contact Me
 
-- 📫 Email: `naveen.secureanalyst.com`
+- 📫 Email: `naveen.secureanalyst@gmail.com.com`
 - 💼 LinkedIn: [linkedin.com/in/naveentelasang](https://linkedin.com/in/naveentelasang)
 - 💻 Portfolio: [your-portfolio.com](https://https://naveencyber.gt.tc/)
 
