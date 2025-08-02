@@ -73,7 +73,7 @@ hobbies: Reading breaches, Breaking boundaries
 
 ## 🛡️ Latest CVE
 
-<!-- START_CVE -->
+<!-- CVE-START -->
 Fetching latest CVE... 🔄
 <!-- END_CVE -->
 
