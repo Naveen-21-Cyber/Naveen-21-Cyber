@@ -1,135 +1,163 @@
-# Naveen Telasang
+# NAVEEN TELASANG
 
-**Security Operations Center Analyst** | **Threat Hunter** | **Incident Responder**
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&width=800&lines=Cybersecurity+Professional;SOC+Analyst+%7C+Threat+Hunter;Security+Operations+Specialist;Digital+Forensics+%26+Incident+Response)](https://git.io/typing-svg)
 
----
-
-## Professional Summary
-
-Results-driven cybersecurity professional specializing in Security Operations Center (SOC) analysis, threat hunting, and incident response. Proven track record in implementing robust security monitoring solutions, developing automated detection systems, and leading investigations of complex security incidents. Dedicated to protecting organizational assets through proactive threat detection, comprehensive analysis, and continuous security improvement.
-
-### Core Competencies
-
-- **Security Operations**: SIEM implementation and management, log analysis, real-time threat monitoring
-- **Threat Intelligence**: IOC development, threat actor profiling, intelligence-driven defense
-- **Incident Response**: Digital forensics, malware analysis, breach investigation and containment
-- **Security Automation**: Python scripting, API integration, SOAR platform development
-- **Vulnerability Management**: Risk assessment, penetration testing, security hardening
+</div>
 
 ---
 
-## Technical Expertise
+## 👨‍💻 About Me
 
-### Security Information & Event Management
-**Tools**: Splunk Enterprise, Elastic Stack (ELK), IBM QRadar, Microsoft Sentinel, Wazuh  
-**Skills**: Custom detection rule development, correlation search optimization, threat hunting query creation
+**Security Operations Center Analyst** specializing in threat detection, incident response, and security automation. Passionate about protecting digital infrastructure through proactive monitoring, intelligent threat hunting, and continuous security improvement.
+
+```yaml
+Location: India 🇮🇳
+Role: SOC Analyst | Cybersecurity Researcher
+Focus Areas:
+  - Security Information & Event Management (SIEM)
+  - Threat Intelligence & Hunting
+  - Incident Response & Digital Forensics
+  - Security Automation with Python
+  - Vulnerability Assessment & Penetration Testing
+```
+
+**Current Initiatives:**
+- Advanced malware detection using machine learning
+- Automated threat hunting playbook development
+- Custom SIEM correlation rule engineering
+- Cloud security architecture research
+- Zero Trust implementation frameworks
+
+---
+
+## 🛡️ Technical Skills
+
+### Security Operations & Monitoring
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![QRadar](https://img.shields.io/badge/IBM_QRadar-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
+![Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-3391CC?style=for-the-badge&logoColor=white)
 
 ### Threat Intelligence & Analysis
-**Frameworks**: MITRE ATT&CK, Diamond Model, Cyber Kill Chain  
-**Tools**: YARA, OpenCTI, MISP, Threat Connect  
-**Capabilities**: IOC extraction and enrichment, threat actor attribution, intelligence report generation
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF0000?style=for-the-badge&logoColor=white)
+![YARA](https://img.shields.io/badge/YARA-1E90FF?style=for-the-badge&logoColor=white)
+![OpenCTI](https://img.shields.io/badge/OpenCTI-FF6B35?style=for-the-badge&logoColor=white)
+![OSINT](https://img.shields.io/badge/OSINT-000000?style=for-the-badge&logoColor=white)
+
+### Programming & Automation
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 ### Network Security & Analysis
-**Tools**: Wireshark, Tcpdump, Zeek (Bro), Suricata  
-**Skills**: Packet analysis, protocol dissection, network traffic baselining, anomaly detection
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white)
+![Nessus](https://img.shields.io/badge/Nessus-00C176?style=for-the-badge&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 
 ### Digital Forensics & Incident Response
-**Tools**: Volatility, Autopsy, FTK Imager, Redline, KAPE  
-**Platforms**: TheHive, Cortex, MISP  
-**Expertise**: Memory forensics, disk analysis, timeline reconstruction, evidence preservation
+![Volatility](https://img.shields.io/badge/Volatility-4CAF50?style=for-the-badge&logoColor=white)
+![Autopsy](https://img.shields.io/badge/Autopsy-1F4E79?style=for-the-badge&logoColor=white)
+![TheHive](https://img.shields.io/badge/TheHive-FF9800?style=for-the-badge&logoColor=white)
+![Cortex](https://img.shields.io/badge/Cortex-607D8B?style=for-the-badge&logoColor=white)
 
-### Vulnerability Assessment & Penetration Testing
-**Tools**: Nessus Professional, OpenVAS, Burp Suite Professional, Metasploit, Nmap  
-**Standards**: OWASP Top 10, SANS Top 25, CWE/CVE analysis
-
-### Programming & Scripting
-**Languages**: Python (primary), PowerShell, Bash, SQL  
-**Libraries**: Scapy, Requests, PyCryptodome, Pandas, Beautiful Soup  
-**Applications**: Security automation, log parsing, threat intelligence integration, custom tooling
-
-### Operating Systems & Infrastructure
-**Platforms**: Kali Linux, Ubuntu Server, CentOS, Windows Server, VMware ESXi  
-**Cloud**: AWS (EC2, S3, CloudTrail, GuardDuty), Azure (Sentinel, Security Center)
+### Operating Systems
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![CentOS](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
 
 ---
 
-## Professional Performance
+## 📊 Performance Metrics
 
-### Key Metrics (Recent 30-Day Period)
-
-| Metric | Value | Description |
-|--------|-------|-------------|
-| **Security Incidents Analyzed** | 1,247 | Complete investigation and documentation |
-| **Threat Hunting Sessions** | 89 | Proactive threat discovery operations |
-| **False Positive Reduction** | 23% | Detection rule optimization results |
-| **Mean Time to Detection (MTTD)** | 12 minutes | Average threat identification speed |
-| **Mean Time to Response (MTTR)** | 45 minutes | Average incident containment time |
-| **IOCs Generated** | 342 | Custom indicators of compromise created |
-| **Automated Playbooks** | 28 | Incident response procedures automated |
-
-### Notable Achievements
-
-- Reduced false positive alerts by 23% through advanced correlation rule optimization
-- Developed 28 automated incident response playbooks, decreasing MTTR by 35%
-- Successfully identified and mitigated advanced persistent threat (APT) campaign targeting organizational infrastructure
-- Implemented comprehensive threat intelligence program integrating 15+ external feeds
-- Created custom Python-based security orchestration framework deployed across enterprise SOC
+```ascii
+╭───────────────────────────────────────────────────────╮
+│  SOC Performance Dashboard (Last 30 Days)            │
+├───────────────────────────────────────────────────────┤
+│  🚨 Security Incidents Analyzed     │ 1,247          │
+│  🔍 Threat Hunting Sessions         │ 89             │
+│  📈 False Positive Reduction        │ 23%            │
+│  ⚡ Mean Time to Detection (MTTD)   │ 12 minutes     │
+│  🛡️ Mean Time to Response (MTTR)    │ 45 minutes     │
+│  🎯 IOCs Generated                   │ 342            │
+│  💼 Playbooks Automated             │ 28             │
+╰───────────────────────────────────────────────────────╯
+```
 
 ---
 
-## Current Projects & Research
+## 🎯 Active Projects
 
-### SOC Automation Framework
-Development of comprehensive security orchestration platform featuring automated incident triage, threat intelligence enrichment, and response coordination. Integrates with multiple SIEM platforms and threat intelligence sources. Built using Python with REST API integration.
+**SOC Automation Framework**
+- Automated incident triage and enrichment
+- Integration with multiple threat intelligence feeds
+- Custom Python-based playbook orchestration
 
-### Advanced Threat Detection System
-Machine learning-based anomaly detection system for identifying sophisticated attack patterns. Utilizes behavioral analytics and statistical modeling to detect zero-day threats and advanced persistent threats (APTs).
+**Threat Intelligence Aggregator**
+- Real-time IOC collection and correlation
+- STIX/TAXII feed integration
+- Automated threat actor profiling
 
-### Threat Intelligence Aggregation Platform
-Centralized threat intelligence platform aggregating data from commercial feeds, open-source intelligence (OSINT), and internal telemetry. Implements STIX/TAXII protocols for standardized threat data exchange.
-
-### Cloud Security Monitoring Solution
-Comprehensive cloud security monitoring framework for AWS and Azure environments. Features automated compliance checking, configuration drift detection, and real-time threat monitoring.
+**Security Awareness Platform**
+- Interactive training modules
+- Phishing simulation campaigns
+- Security metrics dashboard
 
 ---
 
-## Professional Development
+## 📚 Certifications & Learning
 
-### Certifications In Progress
+**In Progress:**
 - SANS GIAC Security Essentials (GSEC)
-- Certified Ethical Hacker (CEH) - EC-Council
+- Certified Ethical Hacker (CEH)
 - AWS Certified Security - Specialty
-- Microsoft Certified: Azure Security Engineer Associate
+- Azure Security Engineer Associate
 
-### Continuous Learning Focus Areas
-- Advanced persistent threat (APT) detection techniques
-- Machine learning applications in cybersecurity
-- Cloud-native security architecture
-- Zero Trust network implementation
-- Security orchestration, automation, and response (SOAR)
-- Adversary emulation and purple teaming
+**Continuous Learning:**
+- Advanced Python for cybersecurity automation
+- Machine learning for threat detection
+- Cloud security architecture and implementation
+- Advanced threat intelligence analysis
 
 ---
 
-## Professional Network
+## 🤝 Connect With Me
 
-**Email**: naveen.secureanalyst@gmail.com  
-**LinkedIn**: [linkedin.com/in/naveentelasang](https://linkedin.com/in/naveentelasang)  
-**Portfolio**: [naveencyber.gt.tc](https://naveencyber.gt.tc)  
-**GitHub**: [github.com/naveentelasang](https://github.com/naveentelasang)
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naveen.secureanalyst@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naveentelasang)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=web&logoColor=white)](https://naveencyber.gt.tc/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naveentelasang)
+
+</div>
 
 ---
 
-## Security Philosophy
+## 💭 Security Philosophy
 
-*Security operations demand constant vigilance, continuous adaptation, and proactive defense. Effective cybersecurity is built on three pillars: comprehensive visibility across all systems, rapid detection and response to threats, and continuous improvement through lessons learned. Every incident is an opportunity to strengthen defenses and enhance organizational resilience.*
+> *"Security is not a product, but a process."*  
+> — Continuous monitoring and improvement mindset
+
+> *"In cybersecurity, paranoia is a professional virtue."*  
+> — Proactive threat detection approach
+
+> *"The best defense is a well-informed offense."*  
+> — Threat intelligence driven security
 
 ---
 
 <div align="center">
 
-**Professional | Reliable | Results-Driven**
+### Professional • Reliable • Results-Driven
 
-*Committed to cybersecurity excellence and protecting digital infrastructure*
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=2E86AB&center=true&vCenter=true&width=600&lines=Thank+you+for+visiting+my+profile;Committed+to+cybersecurity+excellence;Always+learning%2C+always+protecting;Open+to+professional+opportunities)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=naveentelasang&color=2e86ab&style=flat-square&label=Profile+Views)
 
 </div>
